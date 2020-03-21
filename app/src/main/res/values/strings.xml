@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SECONDAPP</string>
+    <string name="title_name">温度转换</string>
+    <string name="inp_text">请输入需转换的温度</string>
+    <string name="t1"><![CDATA[摄氏度℃>>>华氏度℉]]></string>
+    <string name="t2"><![CDATA[华氏度℉>>>摄氏度℃]]></string>
+    <string name="out_text">结果</string>
+</resources>

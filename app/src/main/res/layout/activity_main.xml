@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleshow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/title_name"
+
+        android:textSize="35sp" />
+
+
+    <EditText
+        android:id="@+id/input_tem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+
+        android:hint="@string/inp_text"
+        android:textSize="20sp" tools:targetApi="o"/>
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/t1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="@string/t2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/re_temp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="125dp"
+        android:text="@string/out_text"
+        android:textSize="20sp" />
+</LinearLayout>
+
+
+
