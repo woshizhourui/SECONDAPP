@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rateActivity">
+
+    <EditText
+        android:id="@+id/rmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_text"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:importantForAutofill="no" />
+    <TextView
+        android:id="@+id/showout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:text="@string/app_name"/>
+    <Button
+        android:id="@+id/but_dollor"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:text="@string/btn_dollor_label"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/but_euro"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:text="@string/btn_euro_label"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/but_won"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_won_label"/>
+
+
+
+
+</LinearLayout>

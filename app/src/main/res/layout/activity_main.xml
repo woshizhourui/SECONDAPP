@@ -21,7 +21,7 @@
 
 
     <EditText
-        android:id="@+id/input_tem"
+        android:id="@+id/in_temp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -31,10 +31,10 @@
         android:inputType="numberDecimal"
 
         android:hint="@string/inp_text"
-        android:textSize="20sp" tools:targetApi="o"/>
+        android:textSize="20sp" tools:targetApi="o" />
 
     <Button
-        android:id="@+id/but1"
+        android:id="@+id/btnc2f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -44,7 +44,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/but2"
+        android:id="@+id/btnf2c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -53,7 +53,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/re_temp"
+        android:id="@+id/out_temp"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_marginBottom="125dp"

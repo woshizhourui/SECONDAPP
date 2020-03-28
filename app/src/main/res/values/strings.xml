@@ -5,4 +5,15 @@
     <string name="t1"><![CDATA[摄氏度℃>>>华氏度℉]]></string>
     <string name="t2"><![CDATA[华氏度℉>>>摄氏度℃]]></string>
     <string name="out_text">结果</string>
+    <string name="msg_error_input">请输入有效温度值</string>
+    <string name="fahren">华氏</string>
+    <string name="celsius">摄氏</string>
+    <string name="to_fahren">度->华氏温度</string>
+    <string name="to_celsius">度->摄氏温度</string>
+    <string name="hint_text">input rmb</string>
+    <string name="btn_dollor_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+
+
 </resources>
