@@ -14,6 +14,9 @@
     <string name="btn_dollor_label">Dollar</string>
     <string name="btn_euro_label">Euro</string>
     <string name="btn_won_label">Won</string>
+    <string name="btn_opentext">config</string>
+    <string name="btn_config_name">config</string>
+    <string name="menu_setting">menu</string>
 
 
 </resources>
