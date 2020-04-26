@@ -17,6 +17,7 @@
     <string name="btn_opentext">config</string>
     <string name="btn_config_name">config</string>
     <string name="menu_setting">menu</string>
+    <string name="open_listset">open_list</string>
 
 
 </resources>

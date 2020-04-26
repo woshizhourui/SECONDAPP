@@ -13,8 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-
-
+        android:hint="@string/btn_dollor_label"
         android:inputType="numberDecimal"
         android:autofillHints="" tools:targetApi="o"/>
 
@@ -24,6 +23,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:hint="@string/btn_euro_label"
         android:autofillHints="" />
 
     <EditText
@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:hint="@string/btn_won_label"
         android:autofillHints="" />
 
     <Button
