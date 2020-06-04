@@ -167,7 +167,7 @@ public class rateActivity extends AppCompatActivity implements Runnable{
             openconfig();
         }else if(item.getItemId()==R.id.open_list){
             //打开列表窗口
-            Intent list = new Intent(this,RateListActivity.class);
+            Intent list = new Intent(this,MyList2Activity.class);
             startActivity(list);
 
         }
@@ -207,7 +207,7 @@ public class rateActivity extends AppCompatActivity implements Runnable{
     public void run(){
       Log.i(TAG,"run:run.....");
       try{
-          Thread.sleep(86400000);
+          Thread.sleep(2000);
       }catch (InterruptedException e){
               e.printStackTrace();
       }

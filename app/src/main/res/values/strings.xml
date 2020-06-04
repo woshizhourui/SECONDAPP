@@ -18,6 +18,8 @@
     <string name="btn_config_name">config</string>
     <string name="menu_setting">menu</string>
     <string name="open_listset">open_list</string>
+    <string name="searchhint">请输入关键词</string>
+    <string name="search_btn">搜素</string>
 
 
 </resources>

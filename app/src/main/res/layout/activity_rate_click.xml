@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateClickActivity">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="58dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/searchhint"
+        android:id="@+id/inp2"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:autofillHints=" " />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show2"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>
