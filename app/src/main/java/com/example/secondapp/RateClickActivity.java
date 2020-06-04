@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class RateClickActivity extends AppCompatActivity {
     float rate = 0f;
     String TAG = "rateclicl";
-    EditText inp2
+    EditText inp2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
